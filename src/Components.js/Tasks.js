@@ -118,28 +118,13 @@ export default function Tasks() {
              
             </tbody>
           </table>
-          <div className="row mt-1 mr-auto ">
-                <div className=" ">
-                  <div className="dataTables_paginate paging_simple_numbers " >
-
-                    <ul className="pagination ">
-
-                      <li className="paginate_button page-item previous" id="dataTableExample_previous">
-                        <button  className="page-link">Previous</button>
-                      </li>
-                      <li className="paginate_button page-item previous" id="dataTableExample_previous">
-                        <button disabled className="page-link active">1</button>
-                      </li>
-
-
-                      <li className="paginate_button page-item next" id="dataTableExample_next">
-                        <button className="page-link">Next</button>
-                      </li>
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
+          <div className='d-flex pt-2 '>
+            <div className='ms-auto' >
+              <button className='btn btn-outline-primary rounded-0 rounded-start  border-light '>Previous</button>
+              <button className='btn btn-secondary rounded-0  border-secondary' disabled  >1</button>
+              <button className='btn btn-outline-primary rounded-0 rounded-end border-light'>Next</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

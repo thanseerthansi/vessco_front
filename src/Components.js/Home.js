@@ -52,7 +52,15 @@ export default function Home() {
               </tr>
               
             </tbody>
+            
           </table>
+          <div className='d-flex pt-2 '>
+            <div className='ms-auto' >
+              <button className='btn btn-outline-secondary rounded-0 rounded-start '>Previous</button>
+              <button className='btn btn-secondary rounded-0  border-secondary disabled ' >1</button>
+              <button className='btn btn-outline-secondary rounded-0 rounded-end'>Next</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
