@@ -21,7 +21,7 @@ export default function Header() {
 <div className="sidebar-header ">
  <a href= "/vessel" className="sidebar-brand">
    {/* NNPA<span>UI</span> */}
-   <img src="../assets/images/logo/nnpa_logo.png" alt="light theme" width={165} height={45} />
+   <img src="../assets/images/logo/vessco_logo.png" alt="light theme" width={110} height={70} style={{marginLeft: "-17px", marginTop: "-10px"}} />
  </a>
  <div className="sidebar-toggler not-active">
    <span />
